@@ -173,10 +173,6 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-*.jpg
-*.jpeg
-*.png
-*.gif
-*.svg
-*.ico
-*.bmp
+# Ignorar todos os arquivos na pasta data, mas permitir o upload dos dados
+data/
+!data/**
